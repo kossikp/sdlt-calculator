@@ -2,7 +2,7 @@
 
 ## 1) How long this actually took
 
-This took me roughly two days end-to-end (GitHub repo setup, project setup using latest Laravel and PHP version, implementation, testing, and documentation updates).
+This took me roughly two hours end-to-end (GitHub repo setup, project setup using latest Laravel and PHP version, implementation, testing, and documentation updates).
 
 The rough split was:
 - Initial setup and environment checks: ~2 hours
