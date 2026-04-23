@@ -5,10 +5,10 @@
 This took me roughly two hours end-to-end (GitHub repo setup, project setup using latest Laravel and PHP version, implementation, testing, and documentation updates).
 
 The rough split was:
-- Initial setup and environment checks: ~2 hours
-- SDLT requirements shaping and implementation: ~5-6 hours
-- Validation, test writing, and calculator refinement: ~2-3 hours
-- README/cleanup and final pass: ~1 hour
+- Initial setup and environment checks: ~15 hours
+- SDLT requirements shaping and implementation: ~1 hour
+- Validation, test writing, and calculator refinement: ~30 min
+- README/cleanup and final pass: ~15 min
 
 ## 2) How I used AI tooling
 
