@@ -151,4 +151,7 @@ During deployment on cPanel shared hosting, the following issues were addressed:
 
 * **Apache Rewrite Logic:**
   Configured `.htaccess` to route all requests through the `/public` directory, ensuring proper Laravel routing.
-  
+
+## Live Demo
+
+[View the SDLT Calculator](https://sdlt-calculator.kossikponvi.com) or visit `https://sdlt-calculator.kossikponvi.com`
