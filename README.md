@@ -127,3 +127,28 @@ php artisan test --compact
 - Tests:
   - `tests/Unit/SdltCalculatorServiceTest.php`
   - `tests/Feature/SdltCalculatorFeatureTest.php`
+
+## Deployment Notes
+
+During deployment on cPanel shared hosting, the following issues were addressed:
+
+* **DNS Resolution:**
+  Configured an A record for `sdlt-calculator.kossikponvi.com` to point to the hosting server IP.
+
+* **cPanel Domain Mapping:**
+  Mapped the subdomain to the Laravel project directory in the hosting file system.
+
+* **PHP Extensions (`pdo_mysql`):**
+  Enabled required PHP extensions (`pdo`, `pdo_mysql`, `mysqli`) via cPanel.
+
+* **Laravel Configuration (`.env`, Sessions):**
+  Switched to file-based sessions to remove database dependency:
+
+  ```
+  SESSION_DRIVER=file
+  CACHE_DRIVER=file
+  ```
+
+* **Apache Rewrite Logic:**
+  Configured `.htaccess` to route all requests through the `/public` directory, ensuring proper Laravel routing.
+  
